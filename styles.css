@@ -48,6 +48,20 @@ section {
     margin-bottom: 20px;
 }
 
+.overview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.overview-item {
+    flex: 1;
+    min-width: 200px;
+    background-color: #e7e7e7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
 footer {
     background-color: #333;
     color: #fff;
