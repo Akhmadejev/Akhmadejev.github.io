@@ -1,0 +1,48 @@
+/* UiB Style */
+.course-categories {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course-category {
+    flex: 1;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    margin: 10px;
+}
+
+.course-category:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.course-category h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.course-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.course-item a {
+    display: block;
+    background-color: #0056b3;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.course-item a:hover {
+    background-color: #04366b;
+}
