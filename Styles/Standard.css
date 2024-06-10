@@ -161,3 +161,19 @@ iframe {
     border: none;
     margin-top: 20px;
 }
+
+.back-button {
+    background-color:#0056b3;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.back-button:hover {
+    background-color: #04366b;
+    transform: translateY(-3px);
+}
